@@ -1,4 +1,4 @@
-# .gitignore for Grails 1.2 and 1.3
+# .gitignore for Ggails 1.2 and 1.3
 
 # web application files
 /web-app/WEB-INF
@@ -38,6 +38,7 @@
 
 # "temporary" build files
 /target
+/target-eclipse
 
 # other
 *.iws
