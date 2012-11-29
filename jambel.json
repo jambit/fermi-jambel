@@ -1,0 +1,27 @@
+{
+    "jobs": [
+    	{
+    		"jenkinsJobUrl" : "http://o2cat2.dev.jambit.com:8090/job/O2%20CAT%202/",
+    		"updateMode" : posting
+    	},
+    	{
+    		"jenkinsJobUrl" : "http://o2cat2.dev.jambit.com:8090/job/TPT_CAT2/",
+    		"updateMode" : polling,
+    		"pollingInterval" : 5000
+    	},
+    	{
+    		"jenkinsJobUrl" : "http://o2cat2.dev.jambit.com:8090/job/TPT_CAT2_roundtrip/",
+    		"updateMode" : posting
+    	}
+    ],
+
+    "signalLight": {
+		"green": "bottom",
+        "host": "ampel2.dev",
+        "port": 10001,
+        "readTimeout": 500,
+        "keepAliveInterval": 3000
+    },
+
+    "httpPort": 10000
+}

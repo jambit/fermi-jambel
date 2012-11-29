@@ -1,0 +1,24 @@
+{
+	"questions": [
+		{
+			"question": "Wie viele Repositories werden pro Minute auf Github angelegt?",
+			"ok": "50..150",
+			"good": "80..120"	
+		},
+		{
+			"question": "Wie viele bits passen auf alle Festplatten der jambit-Server?",
+			"ok": "50..150",
+			"good": "80..120"	
+		},
+		{
+			"question": "Wie viele Kaffeebohnen werden bei jambit in einem Monat getrunken?",
+			"ok": "50..150",
+			"good": "80..120"	
+		},
+		{
+			"question": "Wie viele Freundschaften werden pro Minute auf Facebook geschlossen?",
+			"ok": "50..150",
+			"good": "80..120"	
+		}
+	]
+}
